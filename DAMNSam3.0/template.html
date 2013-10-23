@@ -1,0 +1,414 @@
+<!--
+Google IO 2012/2013 HTML5 Slide Template
+
+Authors: Eric Bidelman <ebidel@gmail.com>
+         Luke Mahé <lukem@google.com>
+
+URL: https://code.google.com/p/io-2012-slides
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">-->
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+  <!--This one seems to work all the time, but really small on ipad-->
+  <!--<meta name="viewport" content="initial-scale=0.4">-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="stylesheet" media="all" href="theme/css/default.css">
+  <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="theme/css/phone.css">
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
+  <script data-main="js/slides" src="js/require-1.0.8.min.js"></script>
+</head>
+<body style="opacity: 0">
+
+<slides class="layout-widescreen">
+
+  <slide class="logoslide nobackground">
+    <article class="flexbox vcenter">
+      <span><img src="images/damn_logo.png"></span>
+    </article>
+  </slide>
+
+  <slide class="title-slide segue nobackground">
+    <aside class="gdbar"><img src="images/damn_128.png"></aside>
+    <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+    <hgroup class="auto-fadein">
+      <h1 data-config-title><!-- populated from slide_config.json --></h1>
+      <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
+      <p data-config-presenter><!-- populated from slide_config.json --></p>
+    </hgroup>
+  </slide>
+  
+	<slide class="segue dark nobackground">
+    <aside class="gdbar"><img src="images/damn_128.png"></aside>
+    <aside class="note">
+    	<section>
+    		<p>People have always been fascinated by representations, not simple images, or placeholders, but words, sounds, ideas. Over time, we've worked to develop tools and techniques for building representations of the world around us. These techniques form the foundation for how we see the world.</p>
+    	</section>
+    </aside>
+    <hgroup class="auto-fadein">
+      <h2>Understanding</h2>
+    </hgroup>
+  </slide>
+
+  <slide>
+  <aside class="note">
+      <section>
+        <ul>
+          <li>Let's start with something simple</li>
+          <li>This is where it all began</li>
+          <li>Discovered in 1740</li>
+          <li>Every engineering student has sweat blood and tears over this formula, until they discovered the button on their calculator</li>
+          <li>This is the link between what we see and what we theorize about. When run, it gives us this:</li>
+        </ul>
+        <p><b>This changed the world</b></p>
+      </section>
+    </aside>
+    <hgroup>
+      <h2>Understanding</h2>
+      <h3>(euler)</h3>
+    </hgroup>
+    <article class="flexbox vcenter">
+		<img src="http://latex.codecogs.com/gif.latex?\dpi{300}&space;e^ix&space;=&space;cos(x)&space;&plus;&space;isin(x)" title="e^ix = cos(x) + isin(x)" />
+		<footer class="source">source: <a href="http://www.codecogs.com/eqnedit.php?latex=\dpi{300}&space;e^ix&space;=&space;cos(x)&space;&plus;&space;isin(x)" target="_blank">latex.codecogs.com</a></footer>
+    </article>
+  </slide>
+  
+  <slide class="fill nobackground" style="background-image: url(images/euler.png)" height="700" width="700">
+  <aside class="note">
+  	<section>
+  		<p>This is sound, this is energy, this is light</p>
+  	</section>
+  	</aside>
+    <hgroup>
+    </hgroup>
+    <footer class="source white"><a href="http://en.wikipedia.org/wiki/File:Euler%27s_Formula_c.png">source: wikimedia</a></footer>
+  </slide>
+  
+    <slide>
+  <aside class="note">
+      <section>
+        <ul>
+    	  <li>Let's jump for forward 200 years</li>
+          <li>The mandelbrot set of complex numbers</li>
+          <li>Discovered in 1975, though theory dates back to the 1700s</li>
+          <li>Part of the larger theory of fractals</li>
+          <li>Now, we discovered that we can mimic nature, by applying mathematical operations over, and over again</li>
+          <li>Disorder arrises from the chaos</li>
+        </ul>
+        <p><b>We can use this for all sorts of modeling and visualizing</b></p>
+      </section>
+    </aside>
+    <hgroup>
+      <h2>Understanding</h2>
+      <h3>(mandelbrot)</h3>
+    </hgroup>
+    <article class="flexbox vcenter">
+		<img src="http://latex.codecogs.com/gif.latex?\dpi{300}&space;z_{n&plus;1}&space;=&space;z^2_n&space;&plus;&space;c" title="z_{n+1} = z^2_n + c" />
+		<footer class="source">source: <a href="http://www.codecogs.com/eqnedit.php?latex=\dpi{300}&space;e^ix&space;=&space;cos(x)&space;&plus;&space;isin(x)" target="_blank">latex.codecogs.com</a></footer>
+    </article>
+  </slide>
+  
+      <slide class="fill nobackground" style="background-image: url(images/fern.png)" height="700" width="700">
+  <aside class="note">
+  	<section>
+  		<p>Nature</p>
+  	</section>
+  	</aside>
+    <hgroup>
+    </hgroup>
+    <footer class="source white"><a href="http://cyberroadie.wordpress.com">source: cyberroadie</a></footer>
+  </slide>
+  
+  
+  <slide>
+  	<aside class="note">
+  		<section>
+  			<ul>
+  				<li>Only a few simple lines of code</li>
+  			</ul>
+  			<p><b>This is extremely elegant</b></p>
+  		</section>
+  	</aside>
+    <hgroup>
+      <h2>Understanding</h2>
+      <h3>(mandelbrot code)</h3>
+    </hgroup>
+    <article class="smaller">
+      <pre class="prettyprint" data-lang="R">
+// This may not mean much, but it's pretty awesome
+// the meaningfulness of their existence.
+library(caTools)  # external package providing write.gif function
+jet.colors = colorRampPalette(c("#00007F", "blue", "#007FFF", "cyan", "#7FFF7F", 
+        "yellow", "#FF7F00", "red", "#7F0000")) 
+m = 700     # define size
+<b>C = complex( real=rep(seq(-1.8,0.6, length.out=m), each=m ), 
+    imag=rep(seq(-1.2,1.2, length.out=m), m ) ) 
+C = matrix(C,m,m)  # reshape as square matrix of complex numbers
+Z = 0     # initialize Z to zero
+X = array(0, c(m,m,20)) # initialize output 3D array
+for (k in 1:20) {  # loop with 20 iterations
+ Z = Z^2+C    # the central difference equation 
+ X[,,k] = exp(-abs(Z)) # capture results
+} </b>
+write.gif(X, "Mandelbrot.gif", col=jet.colors, delay=100)
+</pre>
+    </article>
+  </slide>
+
+    <slide class="fill nobackground" style="background-image: url(images/Mandelbrot.gif)">
+    <aside class="note">
+    	<section>
+    		<p>Not only is this beautiful, but it assembles from a random process and maintains boundaries and order</p>
+    	</section>
+    </aside>
+    <hgroup>
+    </hgroup>
+    <footer class="source white"><a href="http://cyberroadie.wordpress.com">source: cyberroadie</a></footer>
+  </slide>
+  
+    
+
+
+  <slide class="segue dark nobackground">
+  <aside class="note">
+  	<section>
+  		<p>So that's nice, we can build some images that would've looked great in 1982. But what good does this do us?</p>
+  		<p>How does this reflect the world? We aren't PacMac</p>
+  	</section>
+  	</aside>
+    <aside class="gdbar"><img src="images/damn_128.png"></aside>
+    <hgroup class="auto-fadein">
+      <h2>Looking Deeper</h2>
+    </hgroup>
+  </slide>
+  
+  <slide>
+  <aside class="note">
+  	<section>
+  		<p>Image that we wanted to move beyond the line and points, and into the world of shapes and wheels</p>
+  		<p>Do the rules still hold?</p>
+  		<p>It's a little more complicated, but it's basically the same code as before, translated into the 3D plane</p>
+  	</section>
+  	</aside>
+    <hgroup>
+      <h2>Looking Deeper</h2>
+      <h3>(mandelbrot code 2)</h3>
+    </hgroup>
+    <article class="smaller">
+      <pre class="prettyprint" data-lang="matlab">
+n = 100;
+norm[x_] := x.x;
+TriplexSquare[{x_, y_, z_}] := If[x == y == 0, {-z^2, 0, 0},
+	Module[{a = 1 - z^2/(x^2 + y^2)},
+	{(x^2 - y^2)a, 2 x y a,
+	-2 z Sqrt[x^2 + y^2]}]];
+
+Mandelbulb[c_] := Module[{p = {0,0, 0}, i = 0},
+	While[i < 24 && norm[p] < 4, p = TriplexSquare[p] + c;i++];i];
+		image = Table[z = 1.5;
+ 	While[z >= -0.1 && Mandelbulb[{x, y, z}] < 24, z -= 3/n];
+ 		z, {y, -1.5, 1.5, 3/n}, {x, -2, 1, 3/n}];
+
+ListDensityPlot[image, Mesh -> False, Frame -> False, PlotRange -> {-0.1, 1.5}]
+</pre>
+    </article>
+  </slide>
+  
+    <slide class="fill nobackground" style="background-image: url(images/mandel-3d_scale.jpg)">
+    <hgroup>
+    </hgroup>
+    <footer class="source white">http://www.skytopia.com/project/fractal/mandelbulb.html</footer>
+  </slide>
+  
+      <slide class="fill nobackground" style="background-image: url(images/mandel-scale2.jpg)">
+    <hgroup>
+    </hgroup>
+    <footer class="source white">http://www.skytopia.com/project/fractal/mandelbulb.html</footer>
+  </slide>
+  
+  <slide class="fill nobackground" style="background-image: url(images/mandel-scale1.jpg)">
+    <hgroup>
+    </hgroup>
+    <footer class="source white">http://www.skytopia.com/project/fractal/mandelbulb.html</footer>
+  </slide>
+  
+      <slide>
+      <aside class="note">
+      	<section>
+      		<p>What most people fail to recognize, is that these types of equations aren't static, they ebb and flow, while have a mind of their own, in their own special way</p>
+      		<p>This is a project named after the Philip Dick book (blade runner), that runs fractal math on a group of user machines and visualizes the results in real time</p>
+      		<p>Together, this community generates these 'random' images</p>
+      	</section>
+      </aside>
+    <hgroup>
+      <h2>Looking Deeper</h2>
+      <h3>electric sheep</h3>
+    </hgroup>
+    <article>
+    <iframe src="http://player.vimeo.com/video/27688359?portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    <footer class="source"><a href="http://vimeo.com/27688359">ElectricSheep.org</a></footer>
+    </article>
+  </slide>
+  
+  
+   <slide>
+   <aside class="note">
+   	<section>
+   		<p>Now that we know we can create images from math, what if we could represent something useful?</p>
+   		<p>Pictures are nice, but a little boring after a while</p>
+   		<p>This is an 'identicon' program called, Identigo</p>
+   		<p>Really, all data is just a stream of 1s and 0s, isn't it all the same?</p>
+   		<p>For the first time, we've truly been able to separate the message from the packaging, imagine what we could do</p>
+   	</section>
+   	</aside>
+    <hgroup>
+    </hgroup>
+    <article>
+      <iframe data-src="http://localhost:3999"></iframe>
+    </article>
+  </slide>
+  
+  
+  <slide class="fill nobackground" style="background-image: url(images/screen_scale.png)">
+  <aside class="note">
+  	<section>
+  		<p>Here's a picture of my desktop while I was building this presentation</p>
+  		<p>What does my computer see?</p>
+  	</section>
+  </aside>
+    <hgroup>
+    </hgroup>
+  </slide>
+  
+    <slide class="fill nobackground" style="background-image: url(images/mem_dump.png)">
+    <aside class="note">
+    	<section>
+    		<p>If can image things that don't really exist, what else can we do with it? Could we tell a story></p>
+    	</section>
+    </aside>
+    <hgroup>
+    </hgroup>
+  </slide>
+  
+      <slide>
+        <aside class="note">
+      <section>
+        <ul>
+          <li>500 molecules</li>
+          <li>Molecules are moved 1 at a time</li>
+          <li>Magnified 1 million times</li>
+          <li>4 researchers worked 18-hour days for 2 weeks</li>
+        </ul>
+        <p><b>Why would you do this?</b></p>
+        <p><b>because it's cool</b></p>
+      </section>
+    </aside>
+    <hgroup>
+      <h2>Looking Deeper</h2>
+      <h3>a boy and his atom</h3>
+    </hgroup>
+    <article>
+    <iframe width="560" height="315" src="http://www.youtube.com/embed/oSCX78-8-q0" frameborder="0" allowfullscreen></iframe>
+    <footer class="source">source: IBM</footer>
+    </article>
+  </slide>
+   
+
+  <slide class="segue dark nobackground">
+    <aside class="gdbar"><img src="images/damn_128.png"></aside>
+    <aside class="note">
+    	<section>
+    		<p>While this is cool and all, it stills comes up short.</p>
+    		<p>It's firmly rooted outside of reality, this is all empty bits and digital dreams</p>
+    		<p>How can we take Euler's dream and turn it into something tangible, something we can touch, see, interact with</p>
+    		<p>Something that leaves a mark on the here and now</p>
+    	</section>
+    </aside>
+    <hgroup class="auto-fadein">
+      <h2>Making Real Things</h2>
+    </hgroup>
+  </slide>
+  
+      <slide>
+      <aside class="note">
+      <section>
+        <p><b>The original word is bliss</b></p>
+      </section>
+    </aside>
+    <hgroup>
+      <h2>Making Real Things</h2>
+    </hgroup>
+    <article class="flexbox vcenter">
+      <img id="animatedgif" src="images/storyline.jpg" class="reflect" alt="Storyline Bookshelf" title="Storyline" >
+      <footer class="source">source: <a href="http://www.gnr8.biz/product_info.php?products_id=658">Frederik Roijé</a></footer>
+    </article>
+  </slide>
+  
+  <slide class="fill nobackground" style="background-image: url(images/fragmented_scale.jpg)">
+  <aside class="note">
+  	<section>
+  		<p>This is the earlier memory dump, woven into a tapestry</p>
+  		<p>This is literally, the most abstracted of visualizations, combined with the most physical of medium</p>
+  	</section>
+  	</aside>
+    <hgroup>
+    </hgroup>
+    <footer class="source white"><a href="http://phillipstearns.wordpress.com/fragmented-memory/">Phillip Stearns</a></footer>
+  </slide>
+  
+  <slide class="segue dark nobackground">
+    <aside class="gdbar"><img src="images/damn_128.png"></aside>'
+    <aside class="note">
+    	<section>
+    		<p>What will we discover tomorrow? What great unknowns are just around the corner, waiting to be found?</p>
+    		<p>How else can we create art, while being firmly rooted in the math, logic, and order of the universe?</p>
+    	</section>
+    </aside>
+    <hgroup class="auto-fadein">
+      <h2>Imagining What's Coming Next</h2>
+    </hgroup>
+  </slide>
+
+  <slide class="thank-you-slide segue nobackground">
+    <aside class="gdbar right"><img src="images/damn_128.png"></aside>
+    <article class="flexbox vleft auto-fadein">
+      <h2>&lt;Thank You!&gt;</h2>
+      <p>Code and slides available on github</p>
+    </article>
+    <p class="auto-fadein" data-config-contact>
+      <!-- populated from slide_config.json -->
+    </p>
+  </slide>
+
+  <slide class="logoslide dark nobackground">
+    <article class="flexbox vcenter">
+      <span><img src="images/logo_white.png"></span>
+    </article>
+  </slide>
+
+  <slide class="backdrop"></slide>
+
+</slides>
+
+<script>
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-XXXXXXXX-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+<!--[if IE]>
+  <script src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
+  <script>CFInstall.check({mode: 'overlay'});</script>
+<![endif]-->
+</body>
+</html>
