@@ -13,7 +13,7 @@ accompanying presentations.
 List of Talks
 ====
 
-Advent2013 [12/08/13] - 'Not as the world gives' | Adevnt homily delivered at [Emmanuel Anglican Church](http://emmanuelseattle.com) looking at the audacity of the Christian faith to proclaim 'peace' in world that is clearly in unrest, but that this audacity is actually rooted in a clear understanding of the modes and mechanisms of human existance and that, in fact, this may be the only true hope for peace in the world. [Audio of talk](http://s3.amazonaws.com/churchplantmedia-cms/emmanuel_anglican_church/nick_robison_peace.mp3)
+Advent2013 [12/08/13] - 'Not as the world gives' | Advent homily delivered at [Emmanuel Anglican Church](http://emmanuelseattle.com). Delivered during 'Peace' week, this sermon looks at the audacity of the Christian faith to proclaim 'peace' in world that is clearly in unrest, but that this audacity is actually rooted in a clear understanding of the modes and mechanisms of human existance and that, in fact, this may be the only true hope for peace in the world. [Audio of talk](http://s3.amazonaws.com/churchplantmedia-cms/emmanuel_anglican_church/nick_robison_peace.mp3)
 
 BCSApologetics [10/23/2013] - 'Apologetics with Nick' | A short talk given at
 Blackhawk Christian High School in their Senior level
